@@ -6,13 +6,9 @@ I found it problematic to run this exploit on kali linux, since python2 doesn't 
 
 I tested it against a cms vulnerable machine on https://tryhackme.com . It is working as intended
 
-
+[+] Specify an url target
 ```
 python3 cmssimple.py
-```
-[+] Specify an url target 
-```
-cmssimple.py
 ```
 
 [+] Example usage (no cracking password):
