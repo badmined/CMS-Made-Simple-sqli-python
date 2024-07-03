@@ -13,12 +13,12 @@ python3 cmssimple.py
 
 [+] Example usage (no cracking password):
 ```
-cmssimple.py -u http://target-uri
+python3 cmssimple.py -u http://target-uri
 ```
 
 [+] Example usage (with cracking password): 
 ```
-cmssimple.py -u http://target-uri --crack -w /path-wordlist
+python3 cmssimple.py -u http://target-uri --crack -w /path-wordlist
 ```
 
 [+] Setup the variable TIME with an appropriate time, because this sql injection is a time based.
