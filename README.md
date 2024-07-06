@@ -6,22 +6,21 @@ I found it problematic to run this exploit on kali linux, since python2 doesn't 
 
 I tested it against a cms vulnerable machine on https://tryhackme.com . It is working as intended
 
-[+] Specify an url target
+ Specify an url target
 ```
 python3 cmssimple.py
 ```
 
-[+] Example usage (no cracking password):
+ Example usage (no cracking password):
 ```
 python3 cmssimple.py -u http://target-uri
 ```
 
-[+] Example usage (with cracking password): 
+ Example usage (with cracking password): 
 ```
 python3 cmssimple.py -u http://target-uri --crack -w /path-wordlist
 ```
 
-[+] Setup the variable TIME with an appropriate time, because this sql injection is a time based.
 
 
 
